@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"battlerName":"","characterIndex":0,"characterName":"Actor1","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Actor1","traits":[],"initialLevel":50,"maxLevel":99,"name":"ハロルド","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"","characterIndex":5,"characterName":"Monster","classId":2,"equips":[2,1,2,3,0],"faceIndex":5,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"スケルトン","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":4,"characterName":"Monster","classId":3,"equips":[3,0,2,3,4],"faceIndex":4,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"インプ","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"","characterIndex":0,"characterName":"Monster","classId":4,"equips":[4,0,2,3,4],"faceIndex":0,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"こうもり","nickname":"","note":"","profile":""}
+]
