@@ -127,8 +127,8 @@
     var APtextallow = String(parameters['textallow']);
     var APtextforbid = String(parameters['textforbid']);
     var APenableonce = parameters['enableonce'] === 'true';
-    var ValidBattletest = parameters['validBattletest'] === 'true';
-    var Defaultallrate = Number(parameters['defaultallrate'] || 0);
+    var APvalidBattletest = parameters['validBattletest'] === 'true';
+    var APdefaultallrate = Number(parameters['defaultallrate'] || 0);
 
     var _Game_Interpreter_pluginCommand = Game_Interpreter.prototype.pluginCommand;
     Game_Interpreter.prototype.pluginCommand = function (command, args) {
@@ -161,7 +161,7 @@
     };
 
     BattleManager.APendBattleset = function (result) {
-        if (result === 0 && (ValidBattletest || !this.isBattleTest())) {
+        if (result === 0 && (APvalidBattletest || !this.isBattleTest())) {
             this.toggleloser();
         }
     };
@@ -185,7 +185,7 @@
     Game_System.prototype.initialize = function () {
         _Game_System_initialize.call(this);
         // this.APsetallrate(0);
-        this.APsetallrate(Defaultallrate);
+        this.APsetallrate(APdefaultallrate);
         this._APexcludeloser = [];
     };
 
